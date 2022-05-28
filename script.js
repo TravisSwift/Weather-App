@@ -3,8 +3,8 @@ function GetInfo() {
     var newName = document.getElementById("cityInput");
     var cityName = document.getElementById("cityName");
     cityName.innerHTML = "--"+newName.value+"--";
-
-fetch('https://api.openweathermap.org/data/2.5/forecast?q='+ newName.value + '&units=imperial&appid=00c0c03a085f1c057eaf6be2d1ca349e')
+    // https://api.openweathermap.org/data/2.5/weather?q
+fetch('https://api.openweathermap.org/data/2.5/forecast?q='+ newName.value + '&appid=00c0c03a085f1c057eaf6be2d1ca349e&units=imperial')
 .then(response => response.json())
 .then(data => {
 

@@ -1,11 +1,11 @@
 *{
     color: rgb(7, 1, 1);
-    background: rgb(255, 255, 255);
+    background: rgb(254, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cityInput, #cityName, #inputContainer,button{
-    margin: 3px;
+#cityInput, #cityName, #inputContainer,button{ 
+margin: 3px;
 padding:5px;
 text-align:left;
 font-size:20px;
@@ -46,19 +46,18 @@ font-weight:bold;
     border-radius: 10px;
 }
 
-.image{
-    height: 140px;
+/* .image{
+     height: 140px;
     width: 100%;
-}
+} 
 
 .imgClass{
     height: 140px;
     width: 100%;
-}
+} */
 
 .weather{
     margin: 5px;
-   /*  background-color: rgb(106, 215, 255); */
     border-radius: 5px;
     text-align: center;
     font-weight: bold;

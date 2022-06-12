@@ -13,6 +13,10 @@ body {
 background-color: rgb(224, 193, 237);;
 }
 
+.weatherInfo {
+    align-self: right;
+}
+
 #cityInput, #cityName, #inputContainer,button{ 
 margin: 3px;
 padding:5px;

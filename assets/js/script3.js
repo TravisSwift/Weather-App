@@ -19,6 +19,8 @@ var getWeatherConditions = function (event) {
                 var lat = data[0].lat
                 var lon = data[0].lon
 
+                
+
                 var apiUrlOneCal = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid=00c0c03a085f1c057eaf6be2d1ca349e";
                 fetch(apiUrlOneCal).then(function (response) {
                     return response.json().then(function (data) {
